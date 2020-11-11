@@ -1,18 +1,15 @@
 {
-  "type": "panel",
-  "name": "my-grafana-plugin",
-  "id": "kannkyo-my-grafana-plugin",
+  "type": "datasource",
+  "name": "datasource-plugin",
+  "id": "kannkyo-datasource-plugin",
+  "metrics": true,
   "info": {
-    "description": "This is sample plugin.",
+    "description": "",
     "author": {
       "name": "kannkyo",
       "url": ""
     },
-    "keywords": [
-      "sample",
-      "grafana",
-      "plugins"
-    ],
+    "keywords": [],
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"
@@ -20,11 +17,11 @@
     "links": [
       {
         "name": "Website",
-        "url": "https://github.com/grafana/simple-react-panel"
+        "url": "https://github.com/grafana/simple-datasource"
       },
       {
         "name": "License",
-        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+        "url": "https://github.com/grafana/simple-datasource/blob/master/LICENSE"
       }
     ],
     "screenshots": [],
@@ -32,7 +29,7 @@
     "updated": "%TODAY%"
   },
   "dependencies": {
-    "grafanaVersion": "7.0.x",
+    "grafanaVersion": "6.5.x",
     "plugins": []
   }
 }

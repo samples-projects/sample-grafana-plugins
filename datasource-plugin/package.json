@@ -1,25 +1,22 @@
 {
-  "name": "kannkyo-my-grafana-plugin",
+  "name": "kannkyo-datasource-plugin",
   "version": "1.0.0",
-  "description": "This is sample plugin.",
+  "description": "",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch"
   },
-  "repository": "github:grafana/simple-react-panel",
   "author": "kannkyo",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/grafana/simple-react-panel/issues",
-    "email": "plugins@grafana.com"
-  },
   "devDependencies": {
     "@grafana/data": "^7.0.0",
     "@grafana/toolkit": "^7.0.0",
     "@grafana/ui": "^7.0.0",
-    "emotion": "10.0.27"
+    "@types/lodash": "latest",
+    "@testing-library/jest-dom": "5.4.0",
+    "@testing-library/react": "^10.0.2"
   },
   "engines": {
     "node": ">=12 <15"
