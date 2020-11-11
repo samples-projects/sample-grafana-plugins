@@ -6,7 +6,7 @@ services:
     ports:
       - 3010:3000
     volumes:
-      - ./grafana/plugins/:/var/lib/grafana/plugins/
+      - ./plugins/:/var/lib/grafana/plugins/
     environment:
       GF_SECURITY_ADMIN_PASSWORD__FILE: /run/secrets/grafana_admin_password
     secrets:
