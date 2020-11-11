@@ -1,0 +1,11 @@
+{
+  "name": "grafana-plugins",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "http://192.168.10.3/gitlab/test/grafana/grafana-plugins",
+  "author": "kannkyo <15080890+kannkyo@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@grafana/toolkit": "^7.3.2"
+  }
+}
