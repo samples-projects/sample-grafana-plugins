@@ -9,6 +9,20 @@ interface Props extends PanelProps<SimpleOptions> {}
 export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) => {
   const theme = useTheme();
   const styles = getStyles();
+
+  let color: string;
+  switch (options.color) {
+    case 'red':
+      color = theme.palette.redBase;
+      break;
+    case 'green':
+      color = theme.palette.greenBase;
+      break;
+    case 'blue':
+      color = theme.palette.blue95;
+      break;
+  }
+
   return (
     <div
       className={cx(
@@ -29,6 +43,9 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
       >
         <g>
           <circle style={{ fill: `${theme.isLight ? theme.palette.greenBase : theme.palette.blue95}` }} r={100} />
+        </g>
+        <g>
+          <circle style={{ fill: color }} r={100} />
         </g>
       </svg>
 
