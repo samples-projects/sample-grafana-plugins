@@ -72,6 +72,25 @@ $ yarn dev
 9. Get data from an external API
 10. Configurations
 
+## Build a data source backend plugin
+
+1. Introduction
+2. Set up your environment
+   1. Grafana pluginフォルダをマウント。
+   2. Grafana を再起動。
+3. Create a new plugin
+   1. `作り方`に従ってpluginを生成。
+4. Anatomy of a backend plugin
+   1. `dist/plugins.json`の`type, name, id`に適切な値を設定する。
+   2. `module.ts`を作成する。これはエントリポイントを記述するもの。
+5. Implement data queries
+   1. 
+6. Add support for health checks
+   1. 
+7. Enable Grafana Alerting
+   1. `yarn build`
+8. Configurations
+
 ## プラグインの種類
 
 プラグインは4種類ある。
