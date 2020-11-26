@@ -1,7 +1,7 @@
 {
   "type": "panel",
-  "name": "panel-plugin",
-  "id": "kannkyo-panel-plugin",
+  "name": "leaflet-plugin",
+  "id": "kannkyo-leaflet-plugin",
   "info": {
     "description": "",
     "author": {
